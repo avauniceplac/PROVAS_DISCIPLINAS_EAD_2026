@@ -79,7 +79,7 @@ const labs = [
 
 /* ── DATAS DAS COLUNAS (fuso Brasília UTC-3) ── */
 const DATAS_COLS = [
-  new Date('2026-04-14T00:00:00-03:00'),
+  new Date('2026-04-13T00:00:00-03:00'),
   new Date('2026-04-23T00:00:00-03:00'),
   new Date('2026-04-24T00:00:00-03:00'),
   new Date('2026-04-25T00:00:00-03:00'),
