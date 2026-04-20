@@ -5,13 +5,7 @@ const IND = 'indisp';
 
 const labs = [
   // ── BLOCO A ──
-  { bloco:'A', lab:'LAB 1',  local:'Bloco A, 1º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
-  { bloco:'A', lab:'LAB 1',  local:'Bloco A, 1º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
-  { bloco:'A', lab:'LAB 1',  local:'Bloco A, 1º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
-
+ 
   { bloco:'A', lab:'LAB 2/3', local:'Bloco A, 1º Andar', turno:'Manhã', horario:'08h30 – 12h',
     d: [DIS, DIS, DIS, DIS, DIS, DIS] },
   { bloco:'A', lab:'LAB 2/3', local:'Bloco A, 1º Andar', turno:'Tarde', horario:'12h – 17h',
@@ -24,13 +18,6 @@ const labs = [
   { bloco:'A', lab:'LAB 4',  local:'Bloco A, 1º Andar', turno:'Tarde', horario:'12h – 17h',
     d: [DIS, DIS, DIS, IND, DIS, DIS] },
   { bloco:'A', lab:'LAB 4',  local:'Bloco A, 1º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
-
-  { bloco:'A', lab:'LAB 5',  local:'Bloco A, 1º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
-  { bloco:'A', lab:'LAB 5',  local:'Bloco A, 1º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
-  { bloco:'A', lab:'LAB 5',  local:'Bloco A, 1º Andar', turno:'Noite', horario:'17h – 22h',
     d: [DIS, DIS, DIS, IND, DIS, DIS] },
 
   { bloco:'A', lab:'CEAD',   local:'Bloco A, 2º Andar', turno:'Manhã', horario:'08h30 – 12h',
@@ -70,7 +57,7 @@ const labs = [
     d: [DIS, DIS, DIS, IND, DIS, DIS] },
 
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [IND, DIS, DIS, DIS, IND, DIS] },
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Tarde', horario:'12h – 17h',
     d: [DIS, DIS, DIS, IND, DIS, DIS] },
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Noite', horario:'17h – 22h',
