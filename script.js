@@ -21,19 +21,19 @@ const labs = [
     d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
 
   { bloco:'A', lab:'CEAD',   local:'Bloco A, 2º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, IND, IND, IND] },
   { bloco:'A', lab:'CEAD',   local:'Bloco A, 2º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, IND] },
   { bloco:'A', lab:'CEAD',   local:'Bloco A, 2º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, IND] },
 
   // ── BLOCO EF ──
   { bloco:'EF', lab:'LAB 7',  local:'Bloco EF, 4º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, IND, IND, IND] },
   { bloco:'EF', lab:'LAB 7',  local:'Bloco EF, 4º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, IND] },
   { bloco:'EF', lab:'LAB 7',  local:'Bloco EF, 4º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, INDD] },
 
   { bloco:'EF', lab:'LAB 9',  local:'Bloco EF, 4º Andar', turno:'Manhã', horario:'08h30 – 12h',
     d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS] },
@@ -43,11 +43,11 @@ const labs = [
     d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, DIS] },
 
   { bloco:'EF', lab:'LAB 11', local:'Bloco EF, 1º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, IND, IND, IND] },
   { bloco:'EF', lab:'LAB 11', local:'Bloco EF, 1º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, IND] },
   { bloco:'EF', lab:'LAB 11', local:'Bloco EF, 1º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, IND] },
 
   { bloco:'EF', lab:'LAB 12', local:'Bloco EF, 4º Andar', turno:'Manhã', horario:'08h30 – 12h',
     d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS] },
@@ -57,11 +57,11 @@ const labs = [
     d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, DIS] },
 
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [IND, DIS, DIS, DIS, IND, DIS, DIS, DIS, IND] },
+    d: [IND, DIS, DIS, DIS, IND, DIS, IND, IND, IND] },
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, IND] },
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, IND, IND, IND] },
 ];
 
 /* ── DATAS DAS COLUNAS (fuso Brasília UTC-3) ── */
