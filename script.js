@@ -7,61 +7,61 @@ const labs = [
   // ── BLOCO A ──
  
   { bloco:'A', lab:'LAB 2/3', local:'Bloco A, 1º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
   { bloco:'A', lab:'LAB 2/3', local:'Bloco A, 1º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
   { bloco:'A', lab:'LAB 2/3', local:'Bloco A, 1º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
 
   { bloco:'A', lab:'LAB 4',  local:'Bloco A, 1º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
   { bloco:'A', lab:'LAB 4',  local:'Bloco A, 1º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
   { bloco:'A', lab:'LAB 4',  local:'Bloco A, 1º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
 
   { bloco:'A', lab:'CEAD',   local:'Bloco A, 2º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
   { bloco:'A', lab:'CEAD',   local:'Bloco A, 2º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
   { bloco:'A', lab:'CEAD',   local:'Bloco A, 2º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
 
   // ── BLOCO EF ──
   { bloco:'EF', lab:'LAB 7',  local:'Bloco EF, 4º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
   { bloco:'EF', lab:'LAB 7',  local:'Bloco EF, 4º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
   { bloco:'EF', lab:'LAB 7',  local:'Bloco EF, 4º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
 
   { bloco:'EF', lab:'LAB 9',  local:'Bloco EF, 4º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS] },
   { bloco:'EF', lab:'LAB 9',  local:'Bloco EF, 4º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, DIS] },
   { bloco:'EF', lab:'LAB 9',  local:'Bloco EF, 4º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, DIS] },
 
   { bloco:'EF', lab:'LAB 11', local:'Bloco EF, 1º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, IND] },
   { bloco:'EF', lab:'LAB 11', local:'Bloco EF, 1º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
   { bloco:'EF', lab:'LAB 11', local:'Bloco EF, 1º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
 
   { bloco:'EF', lab:'LAB 12', local:'Bloco EF, 4º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [DIS, DIS, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS, DIS] },
   { bloco:'EF', lab:'LAB 12', local:'Bloco EF, 4º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, DIS] },
   { bloco:'EF', lab:'LAB 12', local:'Bloco EF, 4º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, DIS] },
 
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Manhã', horario:'08h30 – 12h',
-    d: [IND, DIS, DIS, DIS, IND, DIS] },
+    d: [IND, DIS, DIS, DIS, IND, DIS, DIS, DIS, IND] },
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Tarde', horario:'12h – 17h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Noite', horario:'17h – 22h',
-    d: [DIS, DIS, DIS, IND, DIS, DIS] },
+    d: [DIS, DIS, DIS, IND, DIS, DIS, DIS, DIS, IND] },
 ];
 
 /* ── DATAS DAS COLUNAS (fuso Brasília UTC-3) ── */
@@ -71,7 +71,9 @@ const DATAS_COLS = [
   new Date('2026-04-24T00:00:00-03:00'),
   new Date('2026-04-25T00:00:00-03:00'),
   new Date('2026-04-27T00:00:00-03:00'),
-  new Date('2026-04-28T00:00:00-03:00'),
+  new Date('2026-04-07T00:00:00-03:00'),
+  new Date('2026-04-08T00:00:00-03:00'),
+  new Date('2026-04-12T00:00:00-03:00'),
 ];
 
 /* Retorna a data de hoje no fuso Brasília (UTC-3), zerando horas */
@@ -127,7 +129,7 @@ function renderTable() {
   // Aplica classes nas colunas do thead
   const ths = document.querySelectorAll('thead th');
   // th índices: 0=Bloco,1=Lab,2=Turno, 3..8 = colunas de datas
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 9; i++) {
     const th = ths[i + 3];
     if (!th) continue;
     th.classList.remove('col-passado', 'col-hoje');
@@ -168,7 +170,7 @@ function renderTable() {
     if (row.bloco !== lastBloco) {
       const tr = document.createElement('tr');
       tr.className = 'bloco-header';
-      tr.innerHTML = `<td colspan="9">Bloco ${row.bloco}</td>`;
+      tr.innerHTML = `<td colspan="12">Bloco ${row.bloco}</td>`;
       tbody.appendChild(tr);
       lastBloco = row.bloco;
       lastLab   = null;
