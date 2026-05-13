@@ -71,9 +71,10 @@ const DATAS_COLS = [
   new Date('2026-04-24T00:00:00-03:00'),
   new Date('2026-04-25T00:00:00-03:00'),
   new Date('2026-04-27T00:00:00-03:00'),
-  new Date('2026-04-07T00:00:00-03:00'),
-  new Date('2026-04-08T00:00:00-03:00'),
-  new Date('2026-04-12T00:00:00-03:00'),
+  new Date('2026-04-28T00:00:00-03:00'),
+  new Date('2026-05-07T00:00:00-03:00'),
+  new Date('2026-05-08T00:00:00-03:00'),
+  new Date('2026-05-12T00:00:00-03:00'),
 ];
 
 /* Retorna a data de hoje no fuso Brasília (UTC-3), zerando horas */
@@ -129,7 +130,7 @@ function renderTable() {
   // Aplica classes nas colunas do thead
   const ths = document.querySelectorAll('thead th');
   // th índices: 0=Bloco,1=Lab,2=Turno, 3..8 = colunas de datas
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < DATAS_COLS.length; i++) {
     const th = ths[i + 3];
     if (!th) continue;
     th.classList.remove('col-passado', 'col-hoje');
